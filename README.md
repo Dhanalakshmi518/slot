@@ -24,91 +24,79 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
-~~~
-<!DOCTYPE html>
+```
+
 <html>
-<head>
-    <title>Slot Time Table - ARYA KRISHNA E</title>
-</head>
-<body>
-    <IMG SRC="logo.png"HEIGHT="150"WIDTH="500"BORDER=6>
-    <h2>Saveetha Engineering College</h2>
-    <h3>SLOT TIME TABLE - ARYA KRISHNA E</h3>
+    <head>
+        <title>
+            SLOT TIME TABLE
+        </title>
+    </head>
+    <body>
+        <center>
+            <img src="/static/logo.jpeg" height="100" width="560">
 
-    <table border="1">
-        <tr BGCOLOR="YELLOW">
-            <th>Day/Time</th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
+        </center>
+        <table align="center" width="560" cellspacing="2" border="5" bgcolor="cyan">
+        <caption><b>TIMETABLE - DHANALAKHMI (212225040063)</b></caption>
+        <tr align="center">
+            <th bgcolor="lightyellow">Day/Time</th>
+            <th bgcolor="lightyellow">MONDAY</th>
+            <th bgcolor="lightyellow">TUESDAY</th>
+            <th bgcolor="lightyellow">WEDNESDAY</th>
+            <th bgcolor="lightyellow">THURSDAY</th>
+            <th bgcolor="lightyellow">FRIDAY</th>
+            <th bgcolor="lightyellow">SATURDAY</th>
         </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">8-10</td>
-            <td>PP</td>
-            <td>FREE SLOT</td>
-            <td>PP</td>
-            <td>FREE SLOT</td>
-            <td>PP</td>
+        <tr align="center">
+            <th bgcolor="lightyellow">8.00 - 10.00</th>
+            <td>com.eng</td>
+            <td>c-pro</td>
+            <td>web</td>
+            <td>com.eng</td> 
+            <td>free</td>    
+            <td>web</td>   
         </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">10-12</td>
-            <td>FREE SLOT</td>
-            <td>FWAD</td>
-            <td>FREE SLOT</td>
-            <td>FREE SLOT</td>
-            <td>FREE SLOT</td>
+        <tr align="center">
+            <th bgcolor="lightyellow">10.00 - 12.00</th>
+            <td>free</td>
+            <td>c-pro</td>
+            <td>com.eng</td>
+            <td>com.eng</td> 
+            <td>free</td>    
+            <td>web</td>   
         </tr>
+        <tr>
+            <th bgcolor="lightyellow">12.00 - 1.00</th>
+            <td colspan="2" align="center"></td>
         </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">12-1</td>
-            <td COLSPAN=5 ALIGN="CENTER">LUNCH</td>
+        <tr align="center">
+            <th bgcolor="lightyellow">1.00 - 3.00</th>
+            <td>com.eng</td>
+            <td>c-pro</td>
+            <td>web</td>
+            <td>com.eng</td> 
+            <td>free</td>    
+            <td>web</td>   
         </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">1-3</td>
-            <td>FWAD</td>
-            <td>FREE SLOT</td>
-            <td>FREE SLOT</td>
-            <td>FREE SLOT</td>
-            <td>FWAD</td>
+        <tr align="center">
+            <th bgcolor="lightyellow">3.00 - 5.00</th>
+            <td>free</td>
+            <td>c-pro</td>
+            <td>free</td>
+            <td>com.eng</td> 
+            <td>free</td>    
+            <td>web</td>   
         </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">3-5</td>
-            <td>FREE SLOT</td>
-            <td>FWAD</td>
-            <td>FREE SLOT</td>
-            <td>FREE SLOT</td>
-            <td>FREE SLOT</td>
-        </tr>
-    </table>
 
-    <h3>Subjects</h3>
-    <table border="1">
-        <tr>
-            <th>S. No.</th>
-            <th>Subject Code</th>
-            <th>Subject Name</th>
-        </tr>
-        <tr>
-            <td>1.</td>
-            <td>19AI414</td>
-            <td>Fundamentals of Web Application Development (FWAD)</td>
-        </tr>
-        <tr>
-            <td>2.</td>
-            <td>19AI301</td>
-            <td>Python Programming (PP)</td>
-        </tr>
-        
-    </table>
-</body>
+
+        </table>
+    </body>
 </html>
-~~~
-
+```
 ## OUTPUT
 
-![alt text](<Screenshot 2025-09-22 181615.png>)
+![alt text](<Screenshot (59).png>)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
