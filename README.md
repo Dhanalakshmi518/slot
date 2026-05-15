@@ -93,10 +93,42 @@ Execute the program using runserver command.
         </table>
     </body>
 </html>
+<br>
+<br>
+<br>
+<html>
+        <body>
+            <table align="center" border="5" cellspacing="2">
+                <tr align="center" align="yellow">
+                <th >SI.NO</th>
+                <th>SUBJECT</th>
+                <th>SHORTCUT</th>
+                </tr>
+
+                <tr align="center">
+                    <th bgcolor="yellow">1.</th>
+                    <td>C programming</th>
+                    <td> c-pro</td>
+                </tr>
+                <tr align="center">
+                    <th bgcolor="yellow">2.</th>
+                    <td>Fundamentals of web application</td>
+                    <td>web</td>
+                </tr>
+                <tr align="center">
+                    <th bgcolor="yellow">3.</th>
+                    <td>Communication English</td>
+                    <td>com.eng</td>
+
+                </tr>
+
+            </table>
+        </body>
+</html>
 ```
 ## OUTPUT
 
-![alt text](<Screenshot (59).png>)
+![alt text](<Screenshot (60).png>)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
